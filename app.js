@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
     <title>Wizard News</title>
   </head>
   <body>
-    <h1>Wizard News</h1>
+    <h1><img src='/logo.png' />Wizard News</h1>
     <ul>
     ${posts.map(post => {
       return `<li>${post.title}</li>`;
